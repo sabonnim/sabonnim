@@ -1,0 +1,64 @@
+:root{
+    --azulPlatzi:#121f3d;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: var(--azulPlatzi);
+    font-family: sans-serif;
+    color: white;
+    font-size: 1.7rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    
+   
+}
+.container{
+    display: flex; 
+    justify-content: center;
+    margin: 10px;
+    }
+
+.container-box{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    border: 1px solid white;
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+.container-superior{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border: 1px solid white;
+    width: inherit;
+    height: inherit;
+    border-radius: 10px 10px 0px 0px;
+    background-color: white;
+    font-weight: 700;
+    color: var(--azulPlatzi);
+}
+.container-number{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 170px;
+    font-weight: 700;
+    font-size: xx-large;
+}
+
